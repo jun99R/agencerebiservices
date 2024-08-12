@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ARS</title>
+  <meta name="title" content="ARS">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="150" height="24" alt="ARS home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="150" height="24" alt="ARS home" class="logo-dark">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="index.html" class="navbar-link">Accuiel</a>
+          </li>
+          <!--li>
+            <a href="#Services" class="navbar-link">Services</a>
+          </li>
+          <li>
+            <a href="#About" class="navbar-link">À Propos de Nous</a>
+          </li>
+          <li>
+            <a href="#Projects" class="navbar-link">Projets</a>
+          </li>
+          <li>
+            <a href="#Contact" class="navbar-link">Contact</a>
+          </li-->
+          <!-- Dropdown for language selection -->
+          <li class="navbar-lang">
+            <a href="#" class="navbar-link">Languages</a>
+               <ul class="lang-dropdown">
+                <li><a href="../../index.html" class="lang-option"><span class="flag-icon">🇫🇷</span> Français</a></li>
+                <li><a href="../english/index.html" class="lang-option"><span class="flag-icon">🇬🇧</span> English</a></li>
+                <li><a href="../Mandarin/index.html" class="lang-option"><span class="flag-icon">🇨🇳</span> 中文 (Mandarin)</a></li>
+              </ul>
+          </li>
+        </ul>
+        
+
+        <div class="wrapper">
+          <a href="mailto:secretarial@agencerebiservices.com" class="contact-link">secretarial@agencerebiservices.com</a>
+
+          <a href="tel:+243814312748" class="contact-link">+ (243) 81 43 12 748</a>
+          <a href="tel:+243808503749" class="contact-link">+ (243) 80 85 03 749 </a>
+        </div>
+
+          <ul class="social-list">
+            <li>
+                <a href="https://x.com" class="social-link x" target="_blank">X</a>
+                <a href="https://linkedin.com" class="social-link linkedin" target="_blank">LinkedIn</a>
+                <a href="https://facebook.com" class="social-link facebook" target="_blank">Facebook</a>
+                <a href="https://instagram.com" class="social-link instagram" target="_blank">Instagram</a>
+            </li>
+        </ul>
+        
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="Home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/bg 5.jfif')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Quality is our top priority
+            </h1>
+
+            <p class="hero-text">
+              <!--Ajouter Text ici-->
+            </p>
+          </div>
+          <div class="hero-slider" data-slider>
+
+            <!--Off-->
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+                </li>
+
+              </ul>
+            </div-->
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+          <!--off end-->
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="about" aria-labelledby="about-label" id="About">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/ServiceA.jfif" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label"></p>
+
+            <h2 class="h2 section-title">
+             <!--Ajouter Texte-->
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn >
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Pharmaceuticals, Consumables & Medical Equipment</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content"> 
+                    We supply pharmaceuticals, consumables and medical equipment for 
+                    meet a variety of medical needs.
+                  </p>
+                </div>
+              </li>
+
+         
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Agri-food products</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content"> 
+                    We offer a variety of agri-food products, guaranteeing freshness and quality for a healthy diet
+                  </p>
+                  
+
+                </div>
+              </li>
+
+
+         
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Agricultural inputs</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We provide quality agricultural inputs, including seeds, fertilizers and pesticides, 
+                    to optimize crop yields
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Mining-related property</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content"> 
+                    We have the necessary materials and equipment for good production and customer satisfaction
+                  </p>
+                  
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Building materials</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    We offer a wide range of building materials to suit all your projects. Superior quality and 
+                    guarantee solid and reliable constructions, meeting the most demanding standards in the sector
+                  </p>
+                </div>
+              </li>
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Office and miscellaneous printing</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    We provide a variety of office prints, designed to meet all your needs 
+                    with efficiency and professionalism.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Conventional fuels, biofuels, LPG and CNG</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content"> 
+                    We offer Gasoline, Diesel, Vegetable Oil, Biodiesel, Gas, Alcohol etc...
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    
+      <!-- 
+        - #CTA
+      -->
+      <section class="cta" aria-label="call to action" id="Contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Contact us
+          </h2>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container grid-list">
+        <div class="footer-brand">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+            </a>
+            
+            <span class="email-text">
+                <a href="mailto:secretarial@agencerebiservices.com" class="email-link">
+                    <ion-icon name="mail-sharp"></ion-icon>
+                    secretarial@agencerebiservices.com
+                </a>
+            </span>
+            <span class="phone-text">
+                <a href="tel:+243814312748" class="phone-link">
+                    <ion-icon name="call-sharp"></ion-icon>
+                    + 243 81 43 12 748
+                </a>
+            </span>
+            <span class="phone-text">
+                <a href="tel:+243808503749" class="phone-link">
+                    <ion-icon name="call-sharp"></ion-icon>
+                    + 243 80 85 03 749
+                </a>
+            </span>
+            <a href="www.agencerebiservices.com" class="email-link">www.agencerebiservices.com</a>
+        </div>
+
+        <ul class="footer-list">
+            <li>
+                <p class="h4 footer-list-title">Our Physical Address</p>
+            </li>
+            <li>
+                <address class="footer-text location-container">
+                    <a href="#" class="location-link">
+                        <ion-icon name="location-sharp"></ion-icon>
+                    </a>
+                    <span class="location-text">
+                      Administration Building of the University of Lubumbashi,  
+                      Kasapa Road, City of Lubumbashi,  
+                      Haut-Katanga / Democratic Republic of Congo
+                    </span>
+                </address>
+                <address class="footer-text location-container">
+                    <a href="#" class="location-link">
+                        <ion-icon name="location-sharp"></ion-icon>
+                    </a>
+                    <span class="location-text">
+                      15, avenue : Eric Lwembe, Quartier Latin, 
+                      Municipality of Manika, City of Kolwezi, 
+                      Province de Lualaba
+                    </span>
+                </address>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <p class="h4 footer-list-title">Home</p>
+            </li>
+            <li>
+                <a href="#About" class="footer-link">Services</a>
+            </li>
+            <li>
+              <a href="#Services" class="footer-link">About us</a>
+            </li>
+            <li>
+                <a href="#Solutions" class="footer-link">Contact</a>
+            </li>
+            
+        </ul>
+
+        <div class="footer-list">
+            <!-- Nouveau formulaire de contact -->
+            <div class="footer-form">
+                <h3>Nous Contacter</h3>
+                <form action="send-email.php" method="POST">
+                    <div class="input-wrapper">
+                        <input type="text" name="name" class="input-field" placeholder="Name" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" name="email" class="input-field" placeholder="Email" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" name="phone" class="input-field" placeholder="Phone" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <textarea name="message" class="input-field" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="input-wrapper">
+                        <button type="submit" class="submit-btn">Send</button>
+                    </div>
+                </form>
+            </div>
+            <ul class="social-list">
+                <li>
+                    <a href="https://x.com" class="social-link x" target="_blank">X</a>
+                    <a href="https://linkedin.com" class="social-link linkedin" target="_blank">LinkedIn</a>
+                    <a href="https://facebook.com" class="social-link facebook" target="_blank">Facebook</a>
+                    <a href="https://instagram.com" class="social-link instagram" target="_blank">Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-text-container">
+          <p class="footer-text-end">
+            &copy; 2024 Agence Rebi Services. <br> All rights reserved.
+          </p>
+        </div>
+    </div>
+</footer>
+
+
+  
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
